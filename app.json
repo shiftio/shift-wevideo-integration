@@ -4,6 +4,7 @@
   "repository": "https://github.com/shiftio/shift-integration-app-example",
   "logo": "https://shift.io/images/logo.svg",
   "keywords": ["shift", "wevideo", "node", "express"],
+  "success_url": "/next-steps",
   "env": {
     "SHIFT_USERNAME": {
       "description": "The user name that you use to log into the Shift app",

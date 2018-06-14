@@ -229,13 +229,13 @@ server.use(bodyParser.json())
  * We use jade for the "next steps" page that we show immediately after the 
  * heroku app is started. Otherwise you don't need this or the "next steps" route below
  */
-// server.set('views', __dirname + '/views')
-// server.set('view engine', 'jade')
-// server.use(express.static(__dirname + '/public'))
+server.set('views', __dirname + '/views')
+server.set('view engine', 'jade')
+server.use(express.static(__dirname + '/public'))
 
-// server.get('/next-steps', function (req, res) {
-//   res.render('next-steps', { SLACK_WEBHOOK_URL: process.env.SLACK_WEBHOOK_URL })
-// })
+server.get('/next-steps', function (req, res) {
+  res.render('next-steps', {})
+})
 
 
 /**
