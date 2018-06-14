@@ -28,6 +28,6 @@
     "WEVIDEO_SHARED_SUBFOLDER_NAME": {
       "description": "We will put all files into this directory in the 'Shared with Everyone' space",
       "value": "Shift Files"
-    },
+    }
   }
 }
