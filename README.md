@@ -9,6 +9,8 @@ Make sure that you have you Wevideo Instance ID and API secret handy
 
 
 ### Step 2
+Fill out the heroku app deployment configuration
+
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/shiftio/shift-wevideo-integration)
 
 ![Heroku configuration](public/img/heroku-config.png)
@@ -20,7 +22,7 @@ Visit you new Heroku app by clicking the "View" link at the bottom of the page a
 ![Heroku view button](public/img/heroku-view.png)
 
 ### Finally
-Any time you create a new asset you will recieve a slack notification.
+Any time you create a new asset it will be uploaded to you "Shared with Everyone" folder in Wevideo.
 
 That's it! You've created a SHIFT app. Congrats!
 
