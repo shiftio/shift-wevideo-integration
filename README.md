@@ -1,5 +1,5 @@
 
-The intent of this project is to show you how simple it is to create custom applications for SHIFT. This example app shows how you can send messages to Slack when new assets are created in SHIFT. You can create an itegration with your own apps or third party services, too. 
+This app syncs files and their respective folders from Shift to Wevideo.
 
 There are 3 steps to getting this example app running. It takes 10 minutes. I timed it so I know.
 
