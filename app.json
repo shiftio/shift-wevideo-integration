@@ -1,0 +1,33 @@
+{
+  "name": "Shift to Wevideo Sync App",
+  "description": "This app synchronizes videos from Shift to Wevideo",
+  "repository": "https://github.com/shiftio/shift-integration-app-example",
+  "logo": "https://shift.io/images/logo.svg",
+  "keywords": ["shift", "wevideo", "node", "express"],
+  "env": {
+    "SHIFT_USERNAME": {
+      "description": "The user name that you use to log into the Shift app",
+      "value": "jsmith"
+    },
+    "SHIFT_PASSWORD": {
+      "description": "The password that you use to log into the Shift app",
+      "value": "super secret password"
+    },
+    "SHIFT_DOMAINNAME": {
+      "description": "Your Shift team name",
+      "value": "jsmithproduction"
+    },
+    "WEVIDEO_API_INSTANCE_ID": {
+      "description": "Your Wevideo instance ID. You can get this directly from Wevideo",
+      "value": "1828395"
+    },
+    "WEVIDEO_API_SECRET": {
+      "description": "Your Wevideo API secret. You can get this directly from Wevideo",
+      "value": "YOUR Wevideo API secret here"
+    },
+    "WEVIDEO_SHARED_SUBFOLDER_NAME": {
+      "description": "We will put all files into this directory in the 'Shared with Everyone' space",
+      "value": "Shift Files"
+    },
+  }
+}

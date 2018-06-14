@@ -1,0 +1,14 @@
+html
+  head
+    title= Foo
+    link(rel='stylesheet', href='/styles/main.css')
+  body
+    .main
+      h1 Congrats!
+      h2 You've started your Shift app. Well done!.
+      h1 The final step is to create a webhook in Shift.
+      h2 Use this URL to create a webhook as shown below: 
+        script
+          | document.write(window.location.protocol + '//' + window.location.host + '/events');
+      img.shiftWebhook(src="/img/shift-webhook.gif" alt="Image Title", style="width:700px")
+      
